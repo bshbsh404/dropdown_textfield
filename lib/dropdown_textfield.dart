@@ -1023,7 +1023,7 @@ class _SingleSelectionState extends State<SingleSelection> {
                         bottom: widget.listPadding.bottom,
                         top: widget.listPadding.top),
                     child: Align(
-                      alignment: Alignment.centerLeft,
+                      alignment: Alignment.centerRight,
                       child: FittedBox(
                         fit: BoxFit.fitHeight,
                         child: Text(newDropDownList[index].name,
