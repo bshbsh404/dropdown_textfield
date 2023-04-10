@@ -362,7 +362,7 @@ class _DropDownTextFieldState extends State<DropDownTextField>
     final TextPainter textPainter = TextPainter(
         text: TextSpan(text: text, style: style),
         maxLines: 1,
-        textDirection: TextDirection.ltr)
+        textDirection: TextDirection.rtl)
       ..layout(minWidth: 0, maxWidth: double.infinity);
     return textPainter.size;
   }
